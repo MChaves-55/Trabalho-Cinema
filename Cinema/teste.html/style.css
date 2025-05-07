@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1c1c1c;
+    color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  header {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    border-bottom: 3px solid #ff3d00;
+  }
+  
+  h1 {
+    margin: 0;
+    color: #ff3d00;
+  }
+  
+  .filme {
+    background-color: #2a2a2a;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    text-align: center;
+  }
+  
+  .filme img {
+    width: 100%;
+    max-width: 250px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .filme h2 {
+    margin-top: 10px;
+    color: #ffffff;
+  }
+  
+  .sala, .horarios {
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  
+  .horarios span {
+    background-color: #ff3d00;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-right: 5px;
+    display: inline-block;
+    margin-top: 5px;
+  }
+  
