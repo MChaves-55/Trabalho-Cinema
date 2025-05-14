@@ -1,57 +1,95 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #1c1c1c;
-    color: #f0f0f0;
-    margin: 0;
-    padding: 20px;
-  }
-  
-  header {
-    text-align: center;
-    padding: 20px 0;
-    background-color: #333;
-    border-bottom: 3px solid #ff3d00;
-  }
-  
-  h1 {
-    margin: 0;
-    color: #ff3d00;
-  }
-  
-  .filme {
-    background-color: #2a2a2a;
-    margin: 20px auto;
-    padding: 20px;
-    border-radius: 10px;
-    max-width: 600px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
-    text-align: center;
-  }
-  
-  .filme img {
-    width: 100%;
-    max-width: 250px;
-    border-radius: 10px;
-    margin-bottom: 15px;
-  }
-  
-  .filme h2 {
-    margin-top: 10px;
-    color: #ffffff;
-  }
-  
-  .sala, .horarios {
-    margin-top: 10px;
-    font-size: 16px;
-  }
-  
-  .horarios span {
-    background-color: #ff3d00;
-    color: #fff;
-    padding: 5px 10px;
-    border-radius: 5px;
-    margin-right: 5px;
-    display: inline-block;
-    margin-top: 5px;
-  }
-  
+body { 
+  margin: 0; 
+  padding: 0; 
+  font-family: Arial, sans-serif; 
+  background-color: #121212; 
+  color: #fff; 
+}
+
+.container { 
+  display: flex; 
+  height: 100vh; 
+}
+
+.sidebar { 
+  width: 20%; 
+  background-color: #1f1f1f; 
+  padding: 20px; 
+  border-right: 2px solid #ff0000; 
+}
+
+.sidebar h2 { 
+  font-size: 18px; 
+  margin-bottom: 15px; 
+  color: #ff0000; 
+}
+
+.sidebar ul { 
+  list-style-type: none; 
+  padding: 0; 
+}
+
+.sidebar li { 
+  margin-bottom: 10px; 
+  color: #ff0000; 
+}
+
+.content { 
+  width: 80%; 
+  padding: 20px; 
+  overflow-y: auto; 
+}
+
+.content header { 
+  margin-bottom: 20px; 
+  border-bottom: 2px solid #ff0000; 
+  padding-bottom: 10px; 
+}
+
+.movies { 
+  display: grid; 
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); 
+  gap: 20px; 
+}
+
+.movie { 
+  background-color: #2a2a2a; 
+  padding: 15px; 
+  border-radius: 8px; 
+  text-align: center; 
+  border: 1px solid #ff0000; 
+}
+
+.movie img { 
+  width: 100%; 
+  height: auto; 
+  border-radius: 5px; 
+  margin-bottom: 10px; 
+}
+
+.movie h3 { 
+  margin: 0 0 5px; 
+}
+
+.movie p { 
+  margin: 0 0 10px; 
+}
+
+.sessions { 
+  display: flex; 
+  flex-wrap: wrap; 
+  gap: 10px; 
+  justify-content: center; 
+}
+
+.sessions span { 
+  background-color: #444; 
+  padding: 5px 10px; 
+  border-radius: 5px; 
+  margin-bottom: 5px; 
+  transition: background-color 0.3s; 
+}
+
+.sessions span:hover { 
+  background-color: #ff0000; 
+}
