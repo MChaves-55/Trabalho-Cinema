@@ -4,61 +4,96 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">  
     
-    <title>Cinema Star</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Galeria de Filmes - Cinema</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Programação do Cinema</h1>
+  <div class="container">
+    <aside class="sidebar">
+      <h2>Categorias</h2>
+      <ul>
+        <li>Ação</li>
+        <li>Comédia</li>
+        <li>Drama</li>
+        <li>Ficção Científica</li>
+        <li>Animação</li>
+      </ul>
+    </aside>
+
+    <main class="content">
+      <header>
+        <h1>Galeria de Filmes</h1>
       </header>
-    
-      <div class="filme">
-        <img src="https://upload.wikimedia.org/wikipedia/pt/0/00/Spider-Man_No_Way_Home_poster.jpg" alt="Cartaz Homem-Aranha">
-        <h2>Homem-Aranha: Sem Volta Para Casa</h2>
-        <div class="sala">Sala: 1</div>
-        <div class="horarios">
-          Horários: 
-          <span>14:00</span>
-          <span>17:00</span>
-          <span>20:00</span>
+
+      <section class="movies">
+        <div class="movie">
+          <img src="img/oppenheimer.jpg" alt="Oppenheimer">
+          <h3>Oppenheimer</h3>
+          <p>Duração: 3h</p>
+          <div class="sessions">
+            <span>14:00</span>
+            <span>17:30</span>
+            <span>21:00</span>
+            <span>23:30</span>
+          </div>
         </div>
-      </div>
-    
-      <div class="filme">
-        <img src="https://upload.wikimedia.org/wikipedia/pt/e/e5/The_Batman_poster.jpg" alt="Cartaz Batman">
-        <h2>Batman</h2>
-        <div class="sala">Sala: 2</div>
-        <div class="horarios">
-          Horários: 
-          <span>15:30</span>
-          <span>18:30</span>
-          <span>21:30</span>
+        <div class="movie">
+          <img src="img/avatar2.jpg" alt="Avatar 2">
+          <h3>Avatar 2</h3>
+          <p>Duração: 2h 30min</p>
+          <div class="sessions">
+            <span>13:30</span>
+            <span>16:00</span>
+            <span>19:30</span>
+            <span>22:00</span>
+          </div>
         </div>
-      </div>
-    
-      <div class="filme">
-        <img src="https://upload.wikimedia.org/wikipedia/pt/3/37/Elemental_poster.jpg" alt="Cartaz Elementos">
-        <h2>Elementos</h2>
-        <div class="sala">Sala: 3</div>
-        <div class="horarios">
-          Horários: 
-          <span>13:00</span>
-          <span>16:00</span>
-          <span>19:00</span>
+        <div class="movie">
+          <img src="img/spiderman.jpg" alt="Spider-Man: No Way Home">
+          <h3>Spider-Man: No Way Home</h3>
+          <p>Duração: 2h 28min</p>
+          <div class="sessions">
+            <span>15:00</span>
+            <span>18:00</span>
+            <span>21:00</span>
+            <span>00:00</span>
+          </div>
         </div>
-      </div>
-    
-      <div class="filme">
-        <img src="https://upload.wikimedia.org/wikipedia/pt/f/fb/Fast_X_poster.jpg" alt="Cartaz Velozes e Furiosos 10">
-        <h2>Velozes e Furiosos 10</h2>
-        <div class="sala">Sala: 4</div>
-        <div class="horarios">
-          Horários: 
-          <span>12:00</span>
-          <span>15:00</span>
-          <span>18:00</span>
-          <span>21:00</span>
+        <div class="movie">
+          <img src="img/barbie.jpg" alt="Barbie">
+          <h3>Barbie</h3>
+          <p>Duração: 1h 54min</p>
+          <div class="sessions">
+            <span>12:00</span>
+            <span>15:30</span>
+            <span>19:00</span>
+            <span>21:30</span>
+          </div>
         </div>
-      </div>
-    </body>
-    </html>
+        <div class="movie">
+          <img src="img/elementos.jpg" alt="Elementos">
+          <h3>Elementos</h3>
+          <p>Duração: 1h 42min</p>
+          <div class="sessions">
+            <span>13:00</span>
+            <span>16:00</span>
+            <span>18:30</span>
+            <span>21:00</span>
+          </div>
+        </div>
+        <div class="movie">
+          <img src="img/mario.jpg" alt="Super Mario Bros">
+          <h3>Super Mario Bros</h3>
+          <p>Duração: 1h 32min</p>
+          <div class="sessions">
+            <span>11:30</span>
+            <span>14:30</span>
+            <span>17:30</span>
+            <span>20:00</span>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
